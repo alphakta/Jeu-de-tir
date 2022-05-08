@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jeu de tir</title>
+	<meta charset='utf-8' />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class='score'>
+		<span>Score</span> 
+		<span class="pts"> 0 </span>
+	</div>
+	<div class="flex">
+		<div class="title">
+			<h1>Jeu de tir : clique vite sur le monstre !</h1>
+		</div>
+		<div class="button">
+			<a class="btnStart" id="btnStart"> Lancer le jeu </a>
+		</div>
+		<div id='terrain_de_jeu'>
+			<div class="monstre" id='monstre'></div>
+		</div>
+	</div>
+
+	<script src="./scripts/game.js"></script>
+	<script type="text/javascript" src="./scripts/monstre.js"></script>
+</body>
+
+</html>
